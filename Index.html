@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Intellect Coin</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar">
+    <h3><a href="#">Learning Hub</a></h3>
+    <button class="mobile-menu-icon" onclick="toggleMobileMenu()">
+      <i class="fas fa-bars" id="menu-icon"></i>
+    </button>
+    <div class="navbar-links" id="nav-links">
+      <a href="#">Categories</a>
+      <a href="#">Why Us?</a>
+      <a href="#">Join Us</a>
+      <a href="#">Browse Projects</a>
+      <a href="#">Browse Blogs</a>
+    </div>
+    <div class="dropdown">
+      <button class="JoinNow" onclick="toggleDropdown()">Join now</button>
+      <div class="dropdown-content" id="dropdown">
+        <button class="login-btn">Login <i class="fas fa-user"></i></button>
+        <button class="signup-btn">Signup <i class="fas fa-user-plus"></i></button>
+      </div>
+    </div>
+  </nav>
+  <section class="hero">
+    <h3>Enrich your Learning and Earning Journey with Intellect Coin</h3>
+    <h1 class="static">LEARN <span class="dynamic">to EARN...</span></h1>
+    <hr class="line" />
+    <h3 class="motivation">No need to struggle alone—we are here for your journey</h3>
+    <div class="buttons">
+      <a href="#" class="login">Login</a>
+      <a href="#" class="signup">Signup</a>
+    </div>
+  </section>
+  <section class="categories-container">
+    <div class="category-header">
+      <h2>Know our Categories</h2>
+      <p>Here are the different categories that you can explore and know about.</p>
+    </div>
+    <div class="marquee">
+      <div class="card-list">
+        <div class="card"><img src="https://miro.medium.com/v2/resize:fit:1400/1*IkTjQmOjKHNq4VCwhkNQfQ.png" alt="Frontend Webdevelopment"><h4>Frontend Webdevelopment</h4></div>
+        <div class="card"><img src="https://etraverse.com/wp-content/uploads/2024/02/backend-languages_thumbnail.png" alt="Backend Webdevelopment"><h4>Backend Webdevelopment</h4></div>
+        <div class="card"><img src="https://miro.medium.com/v2/resize:fit:848/0*VGeRv86T5m1-Xb_G.jpg" alt="Full Stack Webdevelopment"><h4>Full Stack Webdevelopment</h4></div>
+        <div class="card"><img src="https://www.scaler.com/topics/images/ai-programming-languages_thumbnail.webp" alt="AI-ML"><h4>AI-ML</h4></div>
+        <div class="card"><img src="https://smartxbrains.in/wp-content/uploads/2023/07/programming-languages-for-data-science-1.png" alt="Data Science"><h4>Data Science</h4></div>
+        <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT87mn4fAOiZauq70WQfrcmkkp5mOHHkT5mPw&s" alt="Figma"><h4>Figma</h4></div>
+        <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHbs7Ye5hDHvGnUKWdDj9N8PYqDc6yMG4SrA&s" alt="Cloud Computing"><h4>Cloud Computing</h4></div>
+        <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz7MbYziWmZARspWiNAlShKkZdDkfiKH5_Lw&s" alt="DevOps"><h4>DevOps</h4></div>
+        <div class="card"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8E7Uvjg3mcxofFhpqyDse_G66-Y4QwDolww&s" alt="Blockchain"><h4>Blockchain</h4></div>
+        <div class="card"><img src="https://miro.medium.com/v2/resize:fit:1400/1*IkTjQmOjKHNq4VCwhkNQfQ.png" alt="Frontend Webdevelopment"><h4>Frontend Webdevelopment</h4></div>
+        <div class="card"><img src="https://etraverse.com/wp-content/uploads/2024/02/backend-languages_thumbnail.png" alt="Backend Webdevelopment"><h4>Backend Webdevelopment</h4></div>
+      </div>
+    </div>
+  </section>
+  <div class="joinUs">
+    <h1>
+        Join Us
+    </h1>
+
+  </div>
+
+  <div class="joinUsContainer">
+    <div class="Card1">
+      <h1>Choose your field</h1>
+      <p>First decide in which field you want to work. And show your talent while learning and earning.</p>
+    </div>
+    <div class="Card2">
+      <h1>Sign Up/Register</h1>
+      <p>Look for a "Sign Up" or "Register" button on the homepage. Click on it to begin registration.</p>
+    </div>
+    <div class="Card3">
+      <h1>Explore the website</h1>
+      <p>Once you have registered, explore the website and learn more about the company and its services.</p>
+    </div>
+    <div class="Card4">
+      <h1>Complete Your Profile</h1>
+      <p>Complete your profile to showcase your talent. Provide necessary information regarding that.</p>
+    </div>
+    <div class="Card5">
+      <h1>Learn and Earn</h1>
+      <p>Learn and Earn with Intellect Coin.</p>
+    </div>
+  </div>
+
+  <div class="new_footer_area">
+    <div class="new_footer_top">
+      <div class="container">
+        <div class="row">
+          <div class="part-1">
+            <h3>Get in Touch</h3>
+            <p>Don’t miss any updates!</p>
+            <input type="email" class="mail" placeholder="Email">
+            <button class="but-1">Subscribe</button>
+          </div>
+          <div class="part-2">
+            <h3>Know More</h3>
+            <div class="links">
+              <a href="#">Company</a>
+              <a href="#">Desktop</a>
+              <a href="#">Projects</a>
+            </div>
+          </div>
+          <div class="part-3">
+            <h3>Help</h3>
+            <div class="links">
+              <a href="#">FAQ</a>
+              <a href="#">Terms</a>
+              <a href="#">Support</a>
+            </div>
+          </div>
+          <div class="part-4">
+            <h3>Follow Us</h3>
+            <div class="f_social_icon">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bg">
+        <div class="footer_bg_one"></div>
+        <div class="footer_bg_two"></div>
+      </div>
+    </div>
+    <div class="copy">
+      <p class="rights">&copy; 2025 Learning Hub. All rights reserved.</p>
+      <p class="copyRight">Built with ❤️ by <a href="#">Tiya Agrawal</a></p>
+    </div>
+  </div>
+  
+
+  <script>
+    function toggleDropdown() {
+      document.getElementById('dropdown').classList.toggle('show');
+    }
+
+    function toggleMobileMenu() {
+      const links = document.getElementById('nav-links');
+      const icon = document.getElementById('menu-icon');
+      links.classList.toggle('active');
+      icon.classList.toggle('fa-times');
+    }
+
+    window.onclick = function (e) {
+      if (!e.target.matches('.JoinNow')) {
+        const dropdown = document.getElementById('dropdown');
+        if (dropdown && dropdown.classList.contains('show')) {
+          dropdown.classList.remove('show');
+        }
+      }
+    };
+  </script>
+
+</body>
+</html>
